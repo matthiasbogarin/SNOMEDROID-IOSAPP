@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="1QS-MO-8xv">
+                                <rect key="frame" x="110.5" y="342" width="193" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="285" id="GZE-jl-d1k"/>
+                                    <constraint firstAttribute="width" constant="193" id="sLc-Gl-kjz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright @ 2020 Matt, Leon, Will, All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SA2-mx-wPf">
+                                <rect key="frame" x="24.5" y="834" width="381.5" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="mDO-tO-U1U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SNOMEDROID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJe-ma-bUP">
+                                <rect key="frame" x="111" y="275" width="192.5" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Xde-GY-3yt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1QS-MO-8xv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Bc-eL-9eq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SA2-mx-wPf" secondAttribute="trailing" constant="8" id="7Sb-7m-rcb"/>
+                            <constraint firstItem="1QS-MO-8xv" firstAttribute="centerX" secondItem="qJe-ma-bUP" secondAttribute="centerX" id="IIH-XP-FZi"/>
+                            <constraint firstItem="SA2-mx-wPf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="PA9-Jz-A5U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1QS-MO-8xv" secondAttribute="bottom" constant="235" id="aoa-UK-GA3"/>
+                            <constraint firstItem="1QS-MO-8xv" firstAttribute="top" secondItem="qJe-ma-bUP" secondAttribute="bottom" constant="39" id="eO7-tx-XOv"/>
+                            <constraint firstItem="SA2-mx-wPf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="sp0-0u-O8J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="228" height="340"/>
+    </resources>
+</document>
